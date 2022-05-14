@@ -47,9 +47,14 @@ function numZero() {
     document.getElementById('risultato').value += 0;
 }
 
+function punto() {
+
+    document.getElementById('risultato').value += '.';
+}
+
 function cancella() {
 
-    document.getElementById('risultato').value = ' '
+    document.getElementById('risultato').value = ' ';
 }
 
 let op1;
