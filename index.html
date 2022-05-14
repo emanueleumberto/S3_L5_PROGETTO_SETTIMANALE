@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice Java</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>La mia calcolatrice in JS</h1>
+        <div>
+            <input type="text" id="risultato" class="display">
+        </div>
+
+        <div>
+            <div >
+                <button type="button" id="sette" onclick="numSette()" class="key">7</button>
+                <button type="button" id="otto" onclick="numOtto()" class="key">8</button>
+                <button type="button" id="nove" onclick="numNove()" class="key">9</button>
+                <button type="button" id="/" onclick="divisione()" class="key">/</button>
+            </div>
+            <div >
+                <button type="button" id="quattro" onclick="numQuattro()" class="key" value="4">4</button>
+                <button type="button" id="cinque" onclick="numCinque()" class="key">5</button>
+                <button type="button" id="sei" onclick="numSei()" class="key">6</button>
+                <button type="button" id="*" onclick="moltiplicazione()" class="key">*</button>
+            </div>
+            <div >
+                <button type="button" id="uno" onclick="numUno()" class="key" value="1">1</button>
+                <button type="button" id="due" onclick="numDue()" class="key" value="2">2</button>
+                <button type="button" id="tre" onclick="numTre()" class="key" value="3">3</button>
+                <button type="button" id="-" onclick="sottrazione()" class="key">-</button>
+            </div>
+            <div >
+                <button type="button" id="c" onclick="cancella()" class="key">C</button>
+                <button type="button" id="zero" onclick="numZero()" class="key" value="0">0</button>
+                <button type="button" id="." onclick="punto()" class="key" value=".">.</button>
+                <button type="button" id="+" onclick="addizione()" class="key">+</button>
+            </div>
+            <div >
+                <button type="button" onclick="operazione()" class="uguale key">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

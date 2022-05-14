@@ -1,0 +1,26 @@
+.key {
+    background-color: rgb(214, 213, 213);
+    color: blue;
+    font-size: 26px;
+    border: none;
+    margin: 4px 2px;
+    height: 40px;
+    width: 46px;
+}
+
+.uguale {
+    width: 208px;
+}
+
+.display {
+    color: blue;
+    font-size: 28px;
+    border: blue solid 1px;
+    margin: 4px 2px;
+    width: 200px;
+    height: 40px;
+}
+
+.container {
+    margin-left: 45%;
+}
